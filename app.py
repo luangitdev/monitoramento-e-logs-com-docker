@@ -1,6 +1,11 @@
 from flask import Flask # type: ignore
 from prometheus_flask_exporter import PrometheusMetrics # type: ignore
+import logging
 
+# Configurar logging
+logging.basicConfig(filename='app.log', level=logging.INFO)
+
+# Inicializar o aplicativo Flask
 app = Flask(__name__)
 
 # Configurar o exportador de métricas
