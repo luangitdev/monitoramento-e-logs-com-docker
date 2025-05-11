@@ -7,7 +7,7 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - ./flask-app:/app
+      - .:/app
     depends_on:
       - logstash
 
@@ -38,6 +38,7 @@ services:
     image: docker.elastic.co/logstash/logstash:7.10.1
     volumes:
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - .:/app  # Adicione esta linha para montar o diretório do app.log
     depends_on:
       - elasticsearch
 
