@@ -4,7 +4,7 @@
 
 Este projeto demonstra como implementar um ambiente de monitoramento e centralização de logs para aplicações Flask utilizando Docker. Ele integra Prometheus e Grafana para monitoramento de métricas, além de Elasticsearch, Logstash e Kibana (ELK Stack) para coleta, processamento e visualização de logs.
 
-![Dashboard do Projeto](/home/luan/Imagens/projeto-monitoramento-5.png)
+![Dashboard do Projeto](diagrama.png)
 
 ## Tecnologias Utilizadas
 
