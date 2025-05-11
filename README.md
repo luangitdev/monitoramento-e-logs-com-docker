@@ -1,4 +1,4 @@
-# Monitoramento e Logs com Docker
+# Monitoramento e Logging com Docker, Prometheus, Grafana e ELK Stack
 
 ## Descrição
 
